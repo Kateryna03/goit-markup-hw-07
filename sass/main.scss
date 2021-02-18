@@ -1,0 +1,31 @@
+@import "./base/normalize";
+@import "./base/fonts";
+@import "./base/common";
+@import "./base/container";
+
+@import "./utils/variables";
+@import "./utils/_visually-hidden";
+
+@import "./components/header-contacts";
+@import "./components/logo";
+@import "./components/modal";
+@import "./components/form";
+@import "./components/checkbox";
+@import "./components/buttons";
+@import "./components/item";
+@import "./components/social-links";
+@import "./components/buttons-set";
+@import "./components/cards-set";
+
+@import "./layout/header";
+@import "./layout/navigation";
+@import "./layout/forms";
+@import "./layout/footer";
+@import "./layout/hero";
+@import "./layout/advanteges";
+@import "./layout/capabilities";
+@import "./layout/team";
+@import "./layout/regular-customers";
+
+@import "./abstracts/placeholders";
+@import "./abstracts/mixins";

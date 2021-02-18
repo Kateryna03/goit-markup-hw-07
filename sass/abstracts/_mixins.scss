@@ -1,0 +1,13 @@
+@mixin centeredFlex($type) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-nav {
+  @include centeredFlex(flex);
+}
+
+.contacts-item {
+  @include centeredFlex(flex);
+}

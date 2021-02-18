@@ -1,0 +1,89 @@
+/*TEAM-social-links*/
+.social-list {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.social-list-link:hover,
+.social-list-link:focus {
+  background-color: #2196f3;
+}
+
+.social-list-link:hover .social-list-icon,
+.social-list-link:focus .social-list-icon {
+  fill: #ffffff;
+}
+
+.social-list-item {
+  width: 44px;
+  height: 44px;
+}
+
+.social-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-list-icon {
+  width: 20px;
+  height: 20px;
+  fill: #afb1b8;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/*FOOTER-social-links*/
+
+.footer-social-list {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  width: 206px;
+  height: 44px;
+}
+
+.footer-list-link,
+.footer-list-icon {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-list-link:hover,
+.footer-list-link:focus {
+  background-color: #2196f3;
+}
+
+.footer-list-link:hover .footer-list-icon,
+.footer-list-link:focus .footer-list-icon {
+  fill: #ffffff;
+  cursor: pointer;
+}
+
+.footer-list-item {
+  width: 44px;
+  height: 44px;
+}
+
+.footer-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+
+.footer-list-icon {
+  width: 20px;
+  height: 20px;
+  fill: #afb1b8;
+}
